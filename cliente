@@ -1,0 +1,23 @@
+# Descrição de um cliente, trabalho básico Programação Orientada a Objetos
+
+# criação da classe Cliente
+class Cliente:
+    # definição do que será/nome cada variável
+    def __init__(self, nome, idade, email, telefone, importancia, valor):
+        self.nome = nome
+        self.idade = idade
+        self.email = email
+        self.telefone = telefone
+        self.importancia = importancia
+        self.valor = valor
+
+# definição do resultado de cada variável
+cliente = Cliente('Kauan', 30, 'kauan@gmail.com', "11 9 9999-9999", 'alta', 'R$ 100000,00')
+
+# resultado final
+print("Nome:", cliente.nome)
+print("Idade:", cliente.idade)
+print("E-mail:", cliente.email)
+print("Numero de telefone:", cliente.telefone)
+print("Importancia para a empresa:", cliente.importancia)
+print("Valor do lucro para a empresa:", cliente.valor)
